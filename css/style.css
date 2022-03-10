@@ -1,0 +1,75 @@
+body {
+	background: url(../imagini/portada-onu.jpg);
+	height: 100vh;
+}
+
+.logotip {
+	cursor: pointer;
+	width: 16vw;
+	margin-left: 6vw;
+	margin-top: 6vh;
+}
+
+nav {
+	width: 99vw;
+	height: 10vh;
+	margin-top: 10vh;
+	display: flex;
+}
+a {
+	text-decoration: none;
+	color: red;
+}
+ul {
+	width: 80vw;
+	height: 10vh;
+	margin-top: 2vh;
+	text-align: center;
+	margin-left: 5vw;
+	color: green;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+}
+
+ul li {
+	display: inline-block;
+	cursor: pointer;
+	margin-left: 6vw;
+	margin-right: 5vw;
+}
+ul li:hover {
+	color: blue;
+	transition: 0.3s;
+	border-bottom: solid 7px yellow;
+}
+.text {
+	font-family: "Times New Roman", Times;
+	font-size: 16px;
+	width: 100vw;
+	text-align: center;
+	color: white;
+	margin-top: 5vh;
+}
+.button {
+	display: inline-block;
+	justify-content: left;
+	align-items: left;
+}
+
+.button {
+	text-decoration: none;
+	color: blueviolet;
+	padding: 20px 20px;
+	margin: 0 auto;
+	border-radius: 10px;
+	font-family: "Times New Roman", Times, serif;
+	text-transform: uppercase;
+	transform: translate(180%, 800%);
+	letter-spacing: 2px;
+	background-image: linear-gradient(to right, #141414 0%, #1e1e1e 51%, #323232 100%);
+	background-size: 100% auto;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.button:hover {
+	background-position: right left;
+}
