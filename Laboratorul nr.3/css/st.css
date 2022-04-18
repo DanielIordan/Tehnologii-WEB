@@ -1,0 +1,12 @@
+.but{
+	text-decoration: none;
+	color: red;
+	padding: 60px 30px 80px 50px;
+	margin: 30px 100px 100px 350px ;
+	border-radius: 10px;
+	font-family: "Times New Roman", Times, serif;
+	letter-spacing: 2px;
+	background-size: 100% auto;
+	background-image: linear-gradient(to right, #141414 0%, #1e1e1e 51%, #323232 100%);
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	text-transform: uppercase, #1e1e1e 51%, #323232 ;}
